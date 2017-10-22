@@ -1,0 +1,36 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+/*********/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Montserrat";
+}
+
+header{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+ul{
+	display: flex;
+	list-style: none;
+}
+
+ul > li > a{
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	transition: all .2s;
+}
+
+ul > li > a:hover{
+	box-shadow: 0px -2px 0px 0px white inset;
+}		
